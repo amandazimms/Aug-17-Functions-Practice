@@ -73,7 +73,7 @@ console.log (shuffleCards(tarot));
 //NOTE B: Pete & Miriam discovered that if you run the for loop the usual way, 
 //  for (i = 0; i<thingtoThuffle.length; i++), 
 //it will only run four times - this is because inside the loop, we're shortening
-//thingToShuffle 's lenth. So Pete's idea was to start at the end of the array and
+//thingToShuffle 's length. So Pete's idea was to start at the end of the array and
 //decrememnt, so we are always 'outrunning' the shortening effect that takes place inside
 // and we're able to finish looping through the whole array even as we shorten it. 
 
